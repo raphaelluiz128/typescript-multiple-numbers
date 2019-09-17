@@ -1,0 +1,27 @@
+{
+  "name": "typescript-multiple-numbers",
+  "version": "1.0.0",
+  "description": "This project is focused on finding multiples of numbers and exchanging their values ​​for strings.",
+  "scripts": {
+    "start": "tsc && node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelluiz128/typescript-multiple-numbers.git"
+  },
+  "keywords": [
+    "multiple",
+    "numbers",
+    "typescript"
+  ],
+  "author": "Raphael Luiz Schettino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaelluiz128/typescript-multiple-numbers/issues"
+  },
+  "homepage": "https://github.com/raphaelluiz128/typescript-multiple-numbers#readme",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {}
+}
