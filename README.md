@@ -4,11 +4,8 @@ This project is focused on finding multiples of numbers and exchanging their val
 # To install dependencies the command is:
 npm install
 
-# Use test - This project use jest for test.
+# Use test - This project use jest with coverage for test.
 npm test
-
-# To use coverage mod of jest, use:
-npm coverage
 
 # To run use:
 npm start
