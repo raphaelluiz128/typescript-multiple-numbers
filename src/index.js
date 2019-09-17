@@ -1,7 +1,7 @@
 "use strict";
 //generation of numbers
 //Verification of multiple numbers of 35 (Nama Team), then of 7 (Team) and last of 5 (Nama)
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 var multiples = function (n, m) { return n % m === 0; };
 var generateNumbers = function () {
     return new Array(100).fill(0).map(function (e, i) {
@@ -12,4 +12,4 @@ var generateNumbers = function () {
     });
 };
 console.log(generateNumbers().join(', '));
-exports.default = generateNumbers();
+exports["default"] = generateNumbers();

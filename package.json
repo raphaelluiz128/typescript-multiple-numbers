@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "This project is focused on finding multiples of numbers and exchanging their values ​​for strings.",
   "scripts": {
-    "start": "tsc && node ./src/index.js",
-    "test": "jest index.test.ts"
+    "start": "tsc ./src/index.ts && node ./src/index.js",
+    "test": "jest index.test.ts --coverage --watchAll"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "@babel/preset-typescript": "^7.6.0"
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/node": "^12.7.4"
   }
 }
