@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This project is focused on finding multiples of numbers and exchanging their values ​​for strings.",
   "scripts": {
-    "start": "tsc && node ./src/index.js"
+    "start": "tsc && node ./src/index.js",
+    "test": "jest index.test.ts"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,12 @@
   },
   "homepage": "https://github.com/raphaelluiz128/typescript-multiple-numbers#readme",
   "devDependencies": {
+    "@types/jest": "24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.6.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@babel/preset-typescript": "^7.6.0"
+  }
 }

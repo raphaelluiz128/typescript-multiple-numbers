@@ -8,7 +8,8 @@
     multiples(i+1,35) ? 'Nama Team'
      :multiples(i+1, 7) ? 'Team'
      :multiples(i+1,5) ? 'Nama'
-     :(i+1)).join(', ');
+     :(i+1));
   };
 
- console.log(generateNumbers());
+  console.log(generateNumbers().join(', '));
+export default generateNumbers();
